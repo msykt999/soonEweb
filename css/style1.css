@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF', 'NEXON Lv1 Gothic OTF Bold' ,'NEXON Lv1 Gothic OTF Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'NEXON Lv1 Gothic OTF', 'NEXON Lv1 Gothic OTF Bold' ,'NEXON Lv1 Gothic OTF Light';
+}
+
+html{
+    background: repeating-linear-gradient(45deg, #F3F5FB, #F3F5FB 8px, #E3E9F6 2px, #E3E9F6 10px);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+	.all{
+		position: absolute;
+        top: 50%;
+        left: 50%;
+       	transform: translate(-50%, -50%);
+	}
+
+	img{
+		text-align: center;
+		padding: 18px;
+		width: 233px;
+		height: 224px;
+	}
+
+	.tt{
+		font-size: 35pt;
+		color: #002974;
+		text-align: center;
+		padding: 18px;
+	}
+
+	.namepw{
+		font-size: 35pt;
+		font-weight: bold;
+		color: #002974;
+		text-align: center;
+		margin-top: 116px;
+	}
+
+	.input{
+		text-align: center;
+
+	}
+
+	input { 
+    -webkit-border-radius:0; /* 모서리 스타일 제거 */ 
+    -webkit-appearance:none; /* 인풋내 그림자 제거 */ 
+    width: 320px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px 4px #E8E8E8;
+    border:none;
+    border-right:0px; 
+    border-top:0px; 
+    border-left:0px; 
+    border-bottom:0px;
+    font-size: 20pt;
+	color: #B0BDD4;
+	padding: 8px;
+	padding-left: 20px;
+	margin: 16px;
+
+    }
+
+/*
+    .np{
+    width: 320px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px 5px #E8E8E8;
+    }
+    */
+
+    button{
+    width: 120px;
+    height: 64px;
+    border-radius: 24px;
+    border:none;
+    border-right:0px; 
+    border-top:0px; 
+    border-left:0px; 
+    border-bottom:0px;
+    font-size: 20pt;
+    color: #ffffff;
+    background-color: #002974;
+    box-shadow: 1px 1px 5px 5px #E8E8E8;
+    font-weight: bold;	
+    }
+
+
+        @media (max-width:768px) {
+            	img{
+					text-align: center;
+					padding: 18px;
+					width: 208px;
+					height: 200px;
+
+				}
+
+				.tt{
+					text-align: center;
+					font-size: 32pt;
+					padding: 18px;
+					margin-top: -24px;
+					line-height: 64px;
+				}
+
+				.namepw{
+					font-size: 32pt;
+					font-weight: bold;
+					color: #002974;
+					text-align: center;
+					line-height: 64px;
+					margin-top: 84px;
+					margin-bottom: -32px;
+				}
+
+				input { 
+    -webkit-border-radius:0; /* 모서리 스타일 제거 */ 
+    -webkit-appearance:none; /* 인풋내 그림자 제거 */ 
+    width: 320px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px 4px #E8E8E8;
+    border:none;
+    border-right:0px; 
+    border-top:0px; 
+    border-left:0px; 
+    border-bottom:0px;
+    font-size: 20pt;
+	color: #B0BDD4;
+	padding: 8px;
+	margin: 6px;
+    }
+
+    button{
+    margin-top: 24px;
+    width: 340px;
+    padding: 8px;
+    }
